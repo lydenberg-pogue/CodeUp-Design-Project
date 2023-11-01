@@ -2,9 +2,11 @@
 
 a {
     text-decoration: unset;
+    color: unset;
 }
 
 .page-wrapper{
+    background-color: #F0F0F0;
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
@@ -17,13 +19,17 @@ h1,h2,h3,h4,h5,h6{
 ul{
     padding: unset;
     margin: unset;
-    list-style-type: unset;
+    list-style: none;
 }
 
 li{
-    text-decoration: none;
-    color: unset;
+    color: gray;
 }
+
+p{
+    margin:unset;
+}
+
 /*Header Section*/
 
 img.header-logo{
@@ -31,3 +37,56 @@ img.header-logo{
     aspect-ratio: 1/1;
 }
 
+
+/*Circle Color Section*/
+
+.circleCol{
+    position: relative;
+    justify-content: center;
+}
+
+.circleThangs{
+    gap: 40px;
+}
+
+.redCircle{
+    background-color:#E6563B;
+    width: 90px;
+    aspect-ratio: 1/1;
+    position: relative;
+    border: 6px solid white;
+}
+
+.orangeCircle{
+    background-color:#EB9D3A;
+    width: 90px;
+    aspect-ratio: 1/1;
+    position: relative;
+    border: 6px solid white;
+}
+
+.greenCircle{
+    background-color:#7CB06C;
+    width: 90px;
+    aspect-ratio: 1/1;
+    position: relative;
+    border: 6px solid white;
+}
+
+.blueCircle{
+    background-color:#00ABA9;
+    width: 90px;
+    aspect-ratio: 1/1;
+    position: relative;
+    border: 6px solid white;
+}
+
+.circleText{
+    margin-bottom: 6px;
+    color: white;
+}
+
+.container.circles .row{
+    border-bottom: 2px solid #DDDEDE;
+    padding-bottom: 40px;
+}
