@@ -16,7 +16,7 @@ ul{
 }
 
 li{
-    text-decoration: unset;
+    text-decoration: none;
     color: unset;
 }
 /*Header Section*/
